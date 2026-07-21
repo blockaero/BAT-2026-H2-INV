@@ -1,0 +1,17 @@
+# HARD RULE: never commit unencrypted (plain) builds of the brief
+dist/block-aero-26h2-bridge.html
+kit/dist/block-aero-26h2-bridge.html
+block-aero-26h2-bridge.html
+
+# The source kit is local-only: the template and build docs contain the
+# plaintext copy of the brief and must never be published.
+kit/
+template.html
+gate-template.html
+build.py
+assets/
+dist/
+
+# Local artifacts and archives
+block-aero-26h2-bridge-protected.html
+*.zip
